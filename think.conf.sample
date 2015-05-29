@@ -1,0 +1,4 @@
+[Think]
+command = play
+file = /home/kwpolska/Dropbox/Media/Wielka Gra.mp3
+behavior = wait

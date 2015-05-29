@@ -1,0 +1,7 @@
+include AUTHORS
+include LICENSE
+include setup.cfg
+include think.conf.sample
+include *.rst
+include *.py
+exclude *.pyc
