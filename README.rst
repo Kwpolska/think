@@ -7,6 +7,12 @@ favorite game show tune to play while doing something?
 
 If yes: ``think`` is just for you.
 
+Installation
+------------
+
+You can install ``think`` from PyPI (with ``pip install think``). Arch Linux
+users can install the ``think`` package from the AUR.
+
 Configuration
 -------------
 
@@ -29,6 +35,6 @@ Create a file named ``~/.config/think.conf`` (or wherever your ``XDG_CONFIG_HOME
 Usage
 -----
 
-Prepend ``think`` before the command that takes long::
+Prepend ``think`` before the command that takes too long to execute::
 
     think sleep 120
