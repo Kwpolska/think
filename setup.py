@@ -5,7 +5,7 @@ from setuptools import setup
 
 
 setup(name='think',
-      version='0.1.0',
+      version='0.1.1',
       description='Terminal Think Music',
       keywords='think music, Jeopardy!, game show',
       author='Chris Warrick',

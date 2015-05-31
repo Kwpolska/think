@@ -1,12 +1,12 @@
 ==============================
 Appendix A. Contribution rules
 ==============================
-:Info: Those are the contribution rules for TEMPLATE.
+:Info: Those are the contribution rules for Think.
 :Author: Chris Warrick <chris@chriswarrick.com>
 :Copyright: © 2014-2015, Chris Warrick.
 :License: BSD (see /LICENSE or :doc:`Appendix B <LICENSE>`.)
-:Date: 2015-01-01
-:Version: 0.1.0
+:Date: 2015-05-31
+:Version: 0.1.1
 
 .. index:: contributing
 
