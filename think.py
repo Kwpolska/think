@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- encoding: utf-8 -*-
-# think v0.1.1
+# think v0.1.2
 # Terminal Think Music
 # Copyright © 2015, Chris Warrick.
 # All rights reserved.
@@ -54,7 +54,7 @@ except ImportError:
     import ConfigParser as configparser
 
 __title__ = 'think'
-__version__ = '0.1.1'
+__version__ = '0.1.2'
 __author__ = 'Chris Warrick'
 __license__ = '3-clause BSD'
 __docformat__ = 'restructuredtext en'
@@ -89,6 +89,7 @@ def main(args=None):
         while mp.poll() is None:
             if not ap or ap.poll() is not None:
                 ap = subprocess.Popen([playcommand, audiofile],
+                                      stdin=DEVNULL,
                                       stdout=DEVNULL, stderr=DEVNULL)
             time.sleep(0.1)
 
@@ -104,4 +105,7 @@ def main(args=None):
         return 255
 
 if __name__ == '__main__':
-    exit(main())
+    try:
+        exit(main())
+    except KeyboardInterrupt:
+        exit(130)
