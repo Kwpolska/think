@@ -3,7 +3,7 @@ Appendix A. Contribution rules
 ==============================
 :Info: Those are the contribution rules for Think.
 :Author: Chris Warrick <chris@chriswarrick.com>
-:Copyright: © 2014-2015, Chris Warrick.
+:Copyright: © 2014-2016, Chris Warrick.
 :License: BSD (see /LICENSE or :doc:`Appendix B <LICENSE>`.)
 
 .. index:: contributing
