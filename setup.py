@@ -16,7 +16,7 @@ setup(name='think',
       platforms='POSIX',
       zip_safe=False,
       # http://pypi.python.org/pypi?%3Aaction=list_classifiers
-      classifiers=['Development Status :: 5 - Production/Stable',
+      classifiers=['Development Status :: 6 - Mature',
                    'Environment :: Console',
                    'Intended Audience :: System Administrators',
                    'License :: OSI Approved :: BSD License',
